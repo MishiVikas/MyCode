@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.TC_02VerifyConditionsOfUseLink">
+        <methods>
+          <include name="verifyConditionsOfUseLink"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.TC_02VerifyConditionsOfUseLink -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestNGuite] -->
